@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+      <!--loading bar-->
+      <link rel="stylesheet" href="vendor/bar/loading-bar.min.css">
+
+      <!--animate.css-->
+      <link rel="stylesheet" href="vendor/animate/animate.min.css">
+
+      <link rel="stylesheet" href="css/style.css">
+
+      <title>Cuda</title>
+  </head>
+  <body>
+
+
+  <main class="main" id="home">
+      <div class="container">
+          <div class="header">
+              <div class="row">
+                  <div class="col-lg-2 col-sm-3 col-4">
+                      <a href="" class="logo">
+                              <svg class="logo" version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 116.4 36.3" style="enable-background:new 0 0 116.4 36.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<path id="logo" class="st0" d="M33.4,25.7l-1.1,6.1c-4.7,2.8-10,4.3-15.4,4.5C6.8,36.6,0,30.7,0,20.3C0,8.2,8.3-0.1,20.7,0
+	c4.2-0.1,8.4,1.1,12,3.3l-3.4,7.6c-2.1-0.8-4.4-1.3-6.7-1.2c-6.1,0-9.1,4-9.3,9.1c-0.2,5.3,3.1,8.8,7.9,9.3
+	C25.5,28.5,29.7,27.7,33.4,25.7z M55.8,27.5c-0.3,1.8,0.4,2.9,4.7,1.1l1.5,4.5c-5.3,2.5-8.5,3.1-10.6,3.1c-3.2,0-5.1-1.3-5.8-3.2
+	c-2,2-4.7,3.2-7.6,3.2c-4.5,0-7.2-3.3-6.6-7.7l2.2-15.2h10.2L42,26.1c-0.2,0.9,0.3,1.8,1.3,2c0.1,0,0.2,0,0.4,0c1.1-0.1,2-1,2.2-2.1
+	l1.8-12.8h10.2L55.8,27.5z M76.2,15.5l1.5-11.1H88l-3.3,23.3c-0.2,1.7,0.5,2.9,4.8,0.6l1.7,4.8c-3.3,2-7,3.1-10.9,3.2
+	c-3.1,0-5.1-1.4-5.8-3.5c-1.7,2.2-4.4,3.5-7.2,3.5c-4.7,0-7.5-4.4-7.5-9.9c0-7.7,5-13.6,11.1-13.6C73,12.7,75,13.7,76.2,15.5z
+	 M75.8,23.9c0-1.8-1-3.2-2.5-3.2c-2,0-3.6,2-3.6,4.4c0,1.8,0.9,3.2,2.5,3.2C74.2,28.2,75.8,26.2,75.8,23.9L75.8,23.9z M105.5,15.5
+	l0.3-2.2h10.2l-2,14.4c-0.2,1.7,0.8,1.9,2.4,1.6l-0.4,4.4c-1.8,1.6-4.1,2.5-6.5,2.6c-3.1,0-5.1-1.4-5.8-3.5
+	c-1.7,2.2-4.4,3.5-7.2,3.5c-4.7,0-7.5-4.4-7.5-9.9c0-7.6,5-13.6,11.1-13.6C102.3,12.7,104.3,13.7,105.5,15.5z M105.1,23.9
+	c0-1.8-1-3.2-2.5-3.2c-2,0-3.6,2-3.6,4.4c0,1.8,0.9,3.2,2.5,3.2C103.5,28.2,105.2,26.2,105.1,23.9L105.1,23.9z"/>
+</svg>
+
+                      </a>
+                  </div>
+                  <div class="col-lg-6 offset-lg-4 d-none d-lg-block">
+                      <nav class="menu">
+                          <a href="#home" class="menu-link">HOME</a>
+                          <a href="#about" class="menu-link">ABOUT</a>
+                          <a href="#work" class="menu-link">WORK</a>
+                          <a href="#blog" class="menu-link">BLOG</a>
+                          <a href="#contact" class="menu-link">CONTACT</a>
+                      </nav>
+                  </div>
+              </div>
+
+              <div class="menu-block">
+                  <nav class="menu-nav">
+                      <a href="#home" class="menu-nav-link menu-home">HOME</a>
+                      <a href="#about" class="menu-nav-link menu-about">ABOUT</a>
+                      <a href="#work" class="menu-nav-link menu-work">WORK</a>
+                      <a href="#blog" class="menu-nav-link menu-blog">BLOG</a>
+                      <a href="#contact" class="menu-nav-link menu-contact">CONTACT</a>
+                  </nav>
+                  <a href="#" class="menu-btn rounded-circle">
+                      <span></span>
+                  </a>
+              </div>
+
+              <div class="menu-slide">
+                  <nav class="menu-slide-nav">
+                      <a href="#home" class="menu-slide-nav-link menu-home">HOME</a>
+                      <a href="#about" class="menu-slide-nav-link menu-about">ABOUT</a>
+                      <a href="#work" class="menu-slide-nav-link menu-work">WORK</a>
+                      <a href="#blog" class="menu-slide-nav-link menu-blog">BLOG</a>
+                      <a href="#icon-contact" class="menu-slide-nav-link menu-contact">CONTACT</a>
+                  </nav>
+                  <a href="#" class="menu-slide-btn rounded-circle">
+                      <span></span>
+                  </a>
+              </div>
+          </div>
+
+          <div class="main-content">
+              <div class="row">
+                  <div class="col-10 offset-1 main-content-text">
+                      Hi there! We are the new kids <br class="br-lg"> on the block <br class="br-xl">
+                      and we build <br class="br-lg"> awesome websites and mobile apps.
+                  </div>
+              </div>
+              <div class="row text-center">
+                  <div class="col-xl-4 offset-xl-4 col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-10 offset-1">
+                      <div class="main-button main-button-click">
+                          <input type="button" id="main-button">
+                          <span class="main-button-click">WORK WITH US!</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </main>
+
+  <section class="services" id="about">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                  <div class="services-subtitle">
+                      <span class="higher section-header">SERVICES WE PROVIDE</span>
+                      <div class="line"></div>
+                      <span class="lower">We are working with both individuals and businesses from all over the globe <br class="br-xl">
+                                to create awesome websites and applications.</span>
+                  </div>
+              </div>
+          </div>
+
+          <div class="services-slider">
+
+              <div class="services-main">
+                  <div class="services-main-img"><img src="img/flag.svg" alt=""></div>
+                  <div class="services-main-text">
+                      <span class="higher">BRANDING</span>
+                      <p class="lower">Lorem ipsum dolor sit amet, <br class="br-xl">
+                          consectetuer adipiscing elit, <br class="br-xl"> sed diam nonummy nibh.</p>
+                  </div>
+              </div>
+
+              <div class="services-main">
+                  <div class="services-main-img"><img src="img/pencil.svg" alt=""></div>
+                  <div class="services-main-text">
+                      <span class="higher">DESIGN</span>
+                      <p class="lower">Sed ut perspiciatis unde <br class="br-xl br-sm br-lg"> omnis iste <br class="br-md"> natus error
+                          <br class="br-sm br-lg"> sit <br class="br-xl"> voluptatem  </p>
+                  </div>
+              </div>
+
+              <div class="services-main">
+                  <div class="services-main-img"><img src="img/gears.svg" alt=""></div>
+                  <div class="services-main-text">
+                      <span class="higher">DEVELOPMENT</span>
+                      <p class="lower">At vero eos et accusamus et <br class="br-xl"> iusto odio dignissimos qui <br class="br-xl"> blanditiis praesentium.</p>
+                  </div>
+              </div>
+
+              <div class="services-main">
+                  <div class="services-main-img"><img src="img/rocket.svg" alt=""></div>
+                  <div class="services-main-text">
+                      <span class="higher">ROCKET SCIENCE</span>
+                      <p class="lower">Et harum quidem rerum est <br class="br-xl"> et expedita <br class="br-md">distinctio. Nam <br class="br-xl"> libero tempore</p>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+  </section>
+
+  <section class="team">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-10 offset-lg-1">
+                  <div class="team-subtitle">
+                      <span class="higher section-header">MEET OUR BEAUTIFUL TEAM</span>
+                      <div class="line"></div>
+                      <span class="lower">We are a small team of designers and developers, who help brands <br
+                              class="br-sm"> with big ideas.</span>
+                  </div>
+              </div>
+          </div>
+          <div class="team-slider">
+
+              <div class="wrapper team-main">
+                  <div class="team-main-img rounded-circle"></div>
+                  <div class="team-main-text">
+                      <span class="higher">ANNE HATHAWAY</span>
+                      <p class="blue">CEO / Marketing Guru</p>
+                      <p class="lower">Lorem ipsum dolor sit amet, <br class="br-xl">
+                          consectetuer adipiscing elit,<br class="br-xl"> sed diam nonummy nibh <br class="br-xl"> euismod tincidunt ut laoreet <br class="br-xl">dolore magna.</p>
+                      <div class="team-main-icons">
+                          <div class="icon rounded-circle">
+                              <a href=""><i class="fab fa-facebook-f"></i></a>
+                          </div>
+                          <div class="icon rounded-circle">
+                              <a href=""><i class="fab fa-twitter"></i></a>
+                          </div>
+                          <div class="icon rounded-circle">
+                              <a href=""><i class="fab fa-linkedin-in"></i></a>
+                          </div>
+                          <div class="icon rounded-circle">
+                              <a href=""><i class="fas fa-envelope"></i></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="wrapper team-main">
+                  <div class="team-main-img rounded-circle"></div>
+                  <div class="team-main-text">
+                      <span class="higher">Kate Upton</span>
+                      <p class="blue">Creative Director</p>
+                      <p class="lower">Duis aute irure dolor in in <br class="br-xl"> voluptate velit esse cillum <br class="br-xl br-lg"> dolore fugiat nulla pariatur.
+                          <br class="br-xl"> Excepteur sint occaecat non <br class="br-xl br-lg"> diam proident.</p>
+                      <div class="team-main-icons">
+                          <div class="icon rounded-circle">
+                              <a href=""><i class="fab fa-twitter"></i></a>
+                          </div>
+                          <div class="icon rounded-circle">
+                              <a href=""><i class="fab fa-linkedin-in"></i></a>
+                          </div>
+                          <div class="icon rounded-circle">
+                              <a href=""><i class="fas fa-envelope"></i></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="wrapper team-main">
+                  <div class="team-main-img rounded-circle"></div>
+                  <div class="team-main-text">
+                      <span class="higher">Olivia Wilde</span>
+                      <p class="blue">Lead Designer</p>
+                      <p class="lower">Nemo enim ipsam voluptas <br class="br-xl "> sit aspernatur aut odit aut <br class="br-xl"> fugit,
+                          <br class="br-sm"> sed quia consequuntur
+                          <br class="br-xl"> magni dolores eos qui ratione <br class="br-xl"> voluptatem nesciunt.</p>
+                      <div class="team-main-icons">
+                          <div class="icon rounded-circle">
+                              <a href=""><i class="fab fa-facebook-f"></i></a>
+                          </div>
+                          <div class="icon rounded-circle">
+                              <a href=""><i class="fab fa-twitter"></i></a>
+                          </div>
+                          <div class="icon rounded-circle">
+                              <a href=""><i class="fab fa-linkedin-in"></i></a>
+                          </div>
+                          <div class="icon rounded-circle">
+                              <a href=""><i class="fas fa-envelope"></i></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="wrapper team-main">
+                  <div class="team-main-img rounded-circle"></div>
+                  <div class="team-main-text">
+                      <span class="higher">Ashley Greene</span>
+                      <p class="blue">SEO / Developer</p>
+                      <p class="lower">Sed ut perspiciatis unde <br class="br-xl br-sm br-lg"> omnis iste natus error sit <br class="br-xl br-sm"> voluptatem accusantium
+                          <br class="br-xl"> doloremque laudantium, <br class="br-xl br-sm br-lg"> totam rem aperiam.</p>
+                      <div class="team-main-icons">
+                          <div class="icon rounded-circle">
+                              <a href=""><i class="fab fa-facebook-f"></i></a>
+                          </div>
+                          <div class="icon rounded-circle">
+                              <a href=""><i class="fab fa-twitter"></i></a>
+                          </div>
+                          <div class="icon rounded-circle">
+                              <a href=""><i class="fas fa-envelope"></i></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+  </section>
+
+  <section class="skills" id="work">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-8 offset-lg-2">
+                  <div class="skills-subtitle">
+                      <span class="higher section-header">WE GOT SKILLS!</span>
+                      <div class="line"></div>
+                      <span class="lower">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod  <br class="br-xl br-md">
+                            tempor incididunt ut labore et dolore magna aliqua.</span>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                  <div class="skills-main">
+                      <div class="label-center process-bar" data-percent="90" data-stroke-trail="#dfe8ed" data-stroke="#30bae7" data-value="0" data-preset="circle" style="height: 165px; width: 165px"></div>
+                      WEB DESIGN
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                  <div class="skills-main">
+                      <div class="label-center process-bar" data-percent="75" data-stroke-trail="#dfe8ed" data-stroke="#d74680" data-value="0" data-preset="circle" style="height: 165px; width: 165px"></div>
+                      HTML / CSS
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                  <div class="skills-main">
+                      <div class="label-center process-bar" data-percent="70" data-stroke-trail="#dfe8ed" data-stroke="#15c7a8" data-value="0" data-preset="circle" style="height: 165px; width: 165px"></div>
+                      GRAPHIC DESIGN
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                  <div class="skills-main">
+                      <div class="label-center process-bar" data-percent="50" data-stroke-trail="#dfe8ed" data-stroke="#eb7d4b" data-value="0" data-preset="circle" style="height: 165px; width: 165px"></div>
+                      UI / UX
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section class="portfolio" id="blog">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-8 offset-lg-2">
+                  <div class="portfolio-subtitle">
+                      <span class="higher section-header">OUR PORTFOLIO</span>
+                      <div class="line"></div>
+                      <span class="lower">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet <br class="br-xl br-md">
+                            consectetur, adipisci velit, sed quia non numquam</span>
+                  </div>
+              </div>
+          </div>
+          <div class="portfolio-filter">
+              <a href="#" class="filter filter-active" data-filter="all">
+                  ALL
+              </a>
+              <a href="#" class="filter" data-filter="web">
+                  WEB
+              </a>
+              <a href="#" class="filter" data-filter="app">
+                  APPS
+              </a>
+              <a href="#" class="filter" data-filter="icon">
+                  ICONS
+              </a>
+          </div>
+          <div class="row">
+              <div class="col-sm-6 offset-sm-0 col-10 offset-1 portfolio-father">
+                  <div class="portfolio-main all web">
+                      <img src="img/portfolio-1.png" alt="">
+                      <span>Isometric Perspective <br class="br-sm br-iphone">Mock-Up</span>
+                  </div>
+              </div>
+              <div class="col-sm-6 offset-sm-0 col-10 offset-1 portfolio-father">
+                  <div class="portfolio-main all web app">
+                      <img src="img/portfolio-2.png" alt="">
+                      <span>Time Zone App UI</span>
+                  </div>
+              </div>
+              <div class="col-sm-6 offset-sm-0 col-10 offset-1 portfolio-father">
+                  <div class="portfolio-main all app">
+                      <img src="img/portfolio-3.png" alt="">
+                      <span>Viro Media Players UI</span>
+                  </div>
+              </div>
+              <div class="col-sm-6 offset-sm-0 col-10 offset-1 portfolio-father">
+                  <div class="portfolio-main all web icon">
+                      <img src="img/portfolio-4.png" alt="">
+                      <span>Blog / Magazine Flat UI Kit</span>
+                  </div>
+              </div>
+
+              <!--load more ...-->
+              <div class="col-sm-6 offset-sm-0 col-10 offset-1 portfolio-father hidden">
+                  <div class="portfolio-main all web">
+                      <img src="img/portfolio-1.png" alt="">
+                      <span>Isometric Perspective <br class="br-sm br-iphone">Mock-Up(1)</span>
+                  </div>
+              </div>
+              <div class="col-sm-6 offset-sm-0 col-10 offset-1 portfolio-father hidden">
+                  <div class="portfolio-main all web app">
+                      <img src="img/portfolio-2.png" alt="">
+                      <span>Time Zone App UI(1)</span>
+                  </div>
+              </div>
+              <div class="col-sm-6 offset-sm-0 col-10 offset-1 portfolio-father hidden">
+                  <div class="portfolio-main all app">
+                      <img src="img/portfolio-3.png" alt="">
+                      <span>Viro Media Players UI(1)</span>
+                  </div>
+              </div>
+              <div class="col-sm-6 offset-sm-0 col-10 offset-1 portfolio-father hidden">
+                  <div class="portfolio-main all web icon">
+                      <img src="img/portfolio-4.png" alt="">
+                      <span>Blog / Magazine Flat UI Kit(1)</span>
+                  </div>
+              </div>
+          </div>
+
+          <div class="row text-center">
+              <div class="col-xl-4 offset-xl-4 col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-10 offset-1">
+                  <div class="portfolio-button portfolio-button-click">
+                      <input type="button">
+                      <span class="portfolio-button-click">LOAD MORE PROJECTS</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section class="people">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-10 offset-lg-1">
+                  <div class="people-subtitle">
+                      <span class="higher section-header">WHAT PEOPLE SAY ABOUT US</span>
+                      <div class="line"></div>
+                      <span class="lower">Our clients love us!</span>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-6 offset-lg-0 col-md-10 offset-md-1">
+                  <div class="media people-main">
+                      <div class="align-self-start rounded-circle people-main-img"></div>
+                      <div class="media-body people-main-text">
+                          “Nullam dapibus blandit orci, viverra <br class="br-xl">gravida dui lobortis eget. Maecenas <br class="br-xl">fringilla urna eu nisl scelerisque.”
+                          <p class="name">CHANEL IMAN</p>
+                          <p class="who">CEO of Pinterest</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-6 offset-lg-0 col-md-10 offset-md-1">
+                  <div class="media people-main">
+                      <div class="align-self-start rounded-circle people-main-img"></div>
+                      <div class="media-body people-main-text">
+                          “Vivamus luctus urna sed urna ultricies <br class="br-xl">ac tempor dui sagittis. In condimentum <br class="br-xl">facilisis porta.”
+                          <p class="name">ADRIANA LIMA</p>
+                          <p class="who">Founder of Instagram</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-6 offset-lg-0 col-md-10 offset-md-1">
+                  <div class="media people-main">
+                      <div class="align-self-start rounded-circle people-main-img"></div>
+                      <div class="media-body people-main-text">
+                          “Vivamus luctus urna sed urna ultricies <br class="br-xl">ac tempor dui sagittis. In condimentum <br class="br-xl">facilisis porta.”
+                          <p class="name">ANNE HATHAWAY</p>
+                          <p class="who">Lead Designer at Behance</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-6 offset-lg-0 col-md-10 offset-md-1">
+                  <div class="media people-main people-main-margin">
+                      <div class="align-self-start rounded-circle people-main-img"></div>
+                      <div class="media-body people-main-text">
+                          “Phasellus non purus vel arcu tempor <br class="br-xl">commodo. Fusce semper, purus vel luctus
+                          <br class="br-xl">molestie, risus sem cursus neque.”
+                          <p class="name">EMMA STONE</p>
+                          <p class="who">Co-Founder of Shazam</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section class="contact">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="contact-subtitle">
+                      <span class="higher section-header">GET IN TOUCH</span>
+                      <div class="line"></div>
+                      <span class="lower">1600 Pennsylvania Ave NW, Washington, DC 20500, <br class="br-sm"> United States of America. <br class="br-md">
+                          Tel: (202) 456-1111</span>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-10 offset-lg-1">
+                  <form action="vendor/mailer/send.php" method="POST" class="contact-form" id="contact-form">
+                      <div class="row">
+                          <div class="col-lg-6 offset-lg-0 col-md-10 offset-md-1 col-sm-10 offset-sm-1">
+                              <div class="contact-form-inputs">
+                                  <label class="placeholder" for="name">
+                                      Your name
+                                      <span class="red">*</span>
+                                  </label>
+                                  <input type="text" name="form_name" id="name" required>
+                              </div>
+                          </div>
+                          <div class="col-lg-6 offset-lg-0 col-md-10 offset-md-1 col-sm-10 offset-sm-1">
+                              <div class="contact-form-inputs">
+                                  <label class="placeholder" for="email">
+                                      Your Email
+                                      <span class="red">*</span>
+                                  </label>
+                                  <input type="email" name="form_mail" id="email" required>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-12 offset-lg-0 col-md-10 offset-md-1 col-sm-10 offset-sm-1">
+                              <div class="contact-form-textarea">
+                                  <label class="placeholder" for="form_text">
+                                      Your message
+                                      <span class="red">*</span>
+                                  </label>
+                                  <textarea name="form_text" form="contact-form" id="form_text" cols="30" rows="7" required></textarea>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row text-center">
+                          <div class="col-xl-4 offset-xl-4 col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-10 offset-1">
+                              <div class="contact-form-button">
+                                  <input type="submit" name="form_btn" value="">
+                                  <span>SEND MESSAGE</span>
+                              </div>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <footer class="footer" id="contact">
+      <div class="container">
+          <div class="footer-menu">
+              <div class="footer-menu-link">
+                  <a href="">Facebook</a>
+              </div>
+              <div class="footer-menu-link">
+                  <a href="">Twitter</a>
+              </div>
+              <div class="footer-menu-link">
+                  <a href="">Google+</a>
+              </div>
+              <div class="footer-menu-link">
+                  <a href="">Linkedln</a>
+              </div>
+              <div class="footer-menu-link">
+                  <a href="">Behance</a>
+              </div>
+              <div class="footer-menu-link">
+                  <a href="">Dribbble</a>
+              </div>
+              <div class="footer-menu-link">
+                  <a href="">Github</a>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+  <footer class="icon-footer" id="icon-contact">
+      <div class="container">
+          <div class="icon-footer-menu">
+              <div class="icon-footer-menu-link">
+                  <a href=""><i class="fab fa-facebook-square"></i></a>
+              </div>
+              <div class="icon-footer-menu-link">
+                  <a href=""><i class="fab fa-twitter-square"></i></a>
+              </div>
+              <div class="icon-footer-menu-link">
+                  <a href=""><i class="fab fa-google-plus-square"></i></a>
+              </div>
+              <div class="icon-footer-menu-link">
+                  <a href=""><i class="fab fa-linkedin"></i></a>
+              </div>
+              <div class="icon-footer-menu-link">
+                  <a href=""><i class="fab fa-behance-square"></i></a>
+              </div>
+              <div class="icon-footer-menu-link">
+                  <a href=""><i class="fab fa-dribbble-square"></i></a>
+              </div>
+              <div class="icon-footer-menu-link">
+                  <a href=""><i class="fab fa-github-square"></i></a>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+
+  <!-- modal window -->
+
+  <div class="contact-popup">
+      <div class="contact-popup-content">
+          <div class="higher">
+              APPRECIATE IT!
+          </div>
+          <span class="lower">Message has been successfully sent <br class="br-all">We will contact with you in the near future!</span>
+      </div>
+  </div>
+
+
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!--bar for skills-->
+  <script type="text/javascript" src="vendor/bar/loading-bar.min.js"></script>
+  <script type="text/javascript" src="vendor/waypoint/jquery.waypoints.min.js"></script>
+  <!--bar for skills-->
+
+  <!--slick-slider-->
+  <link rel="stylesheet" type="text/css" href="vendor/slick/slick.min.css"/>
+  <script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+
+
+  <script type="text/javascript" src="js/script.min.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,469 @@
+/* Colors */
+/* animation */
+@keyframes showingPopup {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.showPopup {
+  animation: showingPopup 0.3s;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+/* fonts */
+/* "mixin" for buttons-actions */
+/* "mixin" of section headers */
+@media (min-width: 1200px) {
+  .br-xl {
+    display: inline;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .br-lg {
+    display: inline;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .br-md {
+    display: inline;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .br-sm {
+    display: inline;
+  }
+}
+@media (min-width: 992px) {
+  .menu-block {
+    display: none;
+  }
+}
+@media (max-width: 1199px) {
+  .portfolio-main img {
+    width: 450px;
+  }
+  .contact-popup-content {
+    width: 60%;
+  }
+}
+@media (max-width: 991px) {
+  section {
+    padding-top: 4.5rem;
+    padding-bottom: 6rem;
+  }
+  .main-content-text {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 0;
+    color: #f7f3ea;
+  }
+  .services-subtitle {
+    margin-bottom: 0;
+  }
+  .services-main {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .team-subtitle {
+    margin-bottom: 0;
+  }
+  .team-main {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .team-main-text {
+    margin-top: 1.5rem;
+  }
+  .team-main-text .blue {
+    margin-bottom: 1.1rem;
+  }
+  .team-main-icons {
+    padding-top: 1rem;
+  }
+  .skills-subtitle {
+    margin-bottom: 0;
+  }
+  .skills-main {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .portfolio-main {
+    margin-top: 3rem;
+  }
+  .portfolio-main-subtitle {
+    margin-bottom: 2rem;
+  }
+  .portfolio-main img {
+    width: 330px;
+  }
+  .portfolio-button {
+    margin-top: 4rem;
+  }
+  .people-main {
+    margin-bottom: 2rem;
+  }
+  .people-main-margin {
+    margin-bottom: 4.5rem;
+  }
+  .people-main-text {
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: white;
+  }
+  .people-main-text .name {
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+  }
+  .people-main-text .who {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #ffdd99;
+  }
+  .people-subtitle {
+    margin-bottom: 3rem;
+  }
+  .contact-subtitle {
+    margin-bottom: 3rem;
+  }
+  .contact-form-inputs:nth-child(1) {
+    margin-bottom: 0.8rem;
+  }
+  .contact-form-textarea {
+    margin-top: 1.2rem;
+    margin-bottom: 3rem;
+  }
+  .contact-popup-content .higher {
+    font-size: 26px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    color: #3c4761;
+  }
+  .contact-popup-content .lower {
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #3c4761;
+  }
+  .footer {
+    padding: 2rem 0;
+  }
+  .footer-menu {
+    padding: 0 2.5rem;
+    font-size: 20px;
+    line-height: 29.9px;
+    letter-spacing: 0.02em;
+    color: white;
+  }
+}
+@media (max-width: 767px) {
+  section {
+    padding-bottom: 5rem;
+    padding-top: 4.5rem;
+  }
+  .header {
+    padding-top: 2.5rem;
+  }
+  .main-button {
+    margin-bottom: 6rem;
+  }
+  .main-content {
+    margin-top: 5rem;
+  }
+  .main-content-text {
+    font-size: 32px;
+    line-height: 30px;
+    letter-spacing: 0;
+    color: #f7f3ea;
+  }
+  .team-main {
+    margin-top: 2rem;
+  }
+  .team-main-text .blue {
+    margin-bottom: 0.6rem;
+    margin-top: 0.08rem;
+  }
+  .team-main-text .higher {
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #393939;
+  }
+  .team-main-text .lower {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #3c4761;
+  }
+  .team-main-img {
+    height: 10rem;
+    width: 10rem;
+  }
+  .services-main {
+    margin-top: 2.5rem;
+  }
+  .services-main-text .higher {
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: white;
+  }
+  .services-main-text .lower {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: white;
+  }
+  .skills-main {
+    margin-top: 2rem;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #3c4761;
+  }
+  .portfolio-subtitle {
+    margin-bottom: 2rem;
+  }
+  .portfolio-main img {
+    width: 250px;
+  }
+  .portfolio-main span {
+    font-size: 16px;
+    line-height: 19.5px;
+    letter-spacing: 0.01em;
+    color: #393939;
+    text-align: center;
+    margin-top: 1.2rem;
+  }
+  .portfolio-filter .filter {
+    width: 4.5rem;
+    font-size: 16px;
+    line-height: 19.5px;
+    letter-spacing: 0.02em;
+    color: #393939;
+  }
+  .menu-block {
+    top: 1.7rem;
+    right: 1.5rem;
+  }
+  .menu-nav {
+    height: 4rem;
+    line-height: 4rem;
+  }
+  .menu-btn {
+    width: 4rem;
+    height: 4rem;
+  }
+  .menu-btn span,
+  .menu-btn span::before,
+  .menu-btn span::after {
+    width: 1.8rem;
+  }
+  .people-main-text {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: white;
+  }
+  .people-main-text .name {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: white;
+    margin-top: 0.6rem;
+    margin-bottom: 0.1rem;
+  }
+  .people-subtitle {
+    margin-bottom: 2rem;
+  }
+  .contact-subtitle {
+    margin-bottom: 2rem;
+  }
+  .contact-form-inputs:nth-child(1) {
+    margin-bottom: 0.7rem;
+  }
+  .contact-form-textarea {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+  }
+  .contact-popup-content .higher {
+    font-size: 26px;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    color: #3c4761;
+  }
+  .contact-popup-content .lower {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #3c4761;
+  }
+  .footer {
+    padding: 1.5rem 0;
+  }
+  .footer-menu {
+    padding: 0;
+    font-size: 17px;
+    line-height: 29.9px;
+    letter-spacing: 0;
+    color: white;
+  }
+}
+@media (max-width: 575px) {
+  .services-slider,
+  .team-slider {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .header {
+    padding-top: 1.5rem;
+  }
+  .menu-block {
+    display: none;
+  }
+  .menu-slide {
+    display: block;
+  }
+  section {
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
+  }
+  .main-content-text {
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: white;
+  }
+  .team-main-img {
+    width: 8rem;
+    height: 8rem;
+  }
+  .skills-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 0.2rem;
+    padding-right: 0.4rem;
+  }
+  .skills-main .ldBar {
+    margin: initial;
+  }
+  .portfolio-subtitle {
+    margin-bottom: 1.5rem;
+  }
+  .portfolio-main {
+    margin-top: 2.5rem;
+  }
+  .portfolio-main img {
+    width: 90%;
+  }
+  .portfolio-main span {
+    margin-top: 0.85rem;
+  }
+  .portfolio-button {
+    margin-top: 3rem;
+  }
+  .people-main-img {
+    width: 4rem;
+    height: 4rem;
+  }
+  .people-main-text {
+    margin-left: 1rem;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: white;
+  }
+  .people-main-text .name {
+    margin-top: 0.3rem;
+    margin-bottom: 0;
+  }
+  .people-main-margin {
+    margin-bottom: 3.5rem;
+  }
+  .contact-form-inputs:nth-child(1) {
+    margin-bottom: 0.5rem;
+  }
+  .contact-form-textarea {
+    margin-top: 0.8rem;
+    margin-bottom: 2.5rem;
+  }
+  .contact-popup-content {
+    width: 85%;
+  }
+  .contact-popup-content .higher {
+    padding: 1.3rem;
+    font-size: 25px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #3c4761;
+  }
+  .contact-popup-content .lower {
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #3c4761;
+  }
+  .footer {
+    display: none;
+  }
+  .icon-footer {
+    display: block;
+    padding: 1rem 0;
+  }
+}
+@media (max-width: 374px) {
+  .br-iphone {
+    display: inline-block;
+  }
+  .skills-main {
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #3c4761;
+    padding: 0;
+  }
+  .menu-slide-btn {
+    width: 3.5rem;
+    height: 3.5rem;
+    top: 1.5rem;
+    left: -4.5rem;
+  }
+  .menu-slide-btn span,
+  .menu-slide-btn span::after,
+  .menu-slide-btn span::before {
+    width: 1.5rem;
+  }
+  .menu-slide-btn-active {
+    left: calc(100% - 4.5rem);
+  }
+  .contact-form-inputs label,
+  .contact-form-textarea label {
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: white;
+  }
+  .contact-popup-content .higher {
+    font-size: 22px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #3c4761;
+  }
+  .contact-popup-content .lower {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #3c4761;
+  }
+}
+/*# sourceMappingURL=media.css.map */

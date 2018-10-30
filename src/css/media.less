@@ -1,0 +1,444 @@
+@import "mixins.less";
+
+@media (min-width: 1200px) {
+  .br-xl {
+    display: inline;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .br-lg {
+    display: inline;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .br-md {
+    display: inline;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .br-sm {
+    display: inline;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .menu-block {
+    display: none;
+  }
+}
+
+
+@media (max-width: 1199px) {
+  .portfolio-main {
+    img {
+      width: 450px;
+    }
+  }
+  .contact-popup-content {
+    width: 60%;
+  }
+}
+
+@media (max-width: 991px) {
+  section {
+    padding-top: 4.5rem;
+    padding-bottom: 6rem;
+  }
+  .main {
+    &-content-text {
+      .font(40px, 44px, 0, @textLight)
+    }
+  }
+  .services {
+    &-subtitle {
+      margin-bottom: 0;
+    }
+    &-main {
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+    }
+  }
+  .team {
+    &-subtitle {
+      margin-bottom: 0;
+    }
+    &-main {
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+      &-text {
+        margin-top: 1.5rem;
+        .blue {
+          margin-bottom: 1.1rem;
+        }
+      }
+      &-icons {
+        padding-top: 1rem;
+      }
+    }
+  }
+  .skills {
+    &-subtitle {
+      margin-bottom: 0;
+    }
+    &-main {
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+    }
+  }
+  .portfolio {
+    &-main {
+      margin-top: 3rem;
+      &-subtitle {
+        margin-bottom: 2rem;
+      }
+      img {
+        width: 330px;
+      }
+    }
+    &-button {
+      margin-top: 4rem;
+    }
+  }
+  .people {
+    &-main {
+      margin-bottom: 2rem;
+      &-margin {
+        margin-bottom: 4.5rem;
+      }
+      &-text {
+        .font(18px, 26px, 0.02em, white);
+        .name {
+          margin-top: 1rem;
+          margin-bottom: 0.2rem;
+        }
+        .who {
+          .font(16px, 26px, 0.02em, #ffdd99);
+        }
+      }
+    }
+    &-subtitle {
+      margin-bottom: 3rem;
+    }
+  }
+  .contact {
+    &-subtitle {
+      margin-bottom: 3rem;
+    }
+    &-form {
+      &-inputs:nth-child(1) {
+        margin-bottom: 0.8rem;
+      }
+      &-textarea {
+        margin-top: 1.2rem;
+        margin-bottom: 3rem;
+      }
+    }
+    &-popup-content {
+      .higher {
+        .font(26px, 18px, 0.1em, @textDark);
+      }
+      .lower {
+        .font(18px, 22px, 0.02em, @textDark);
+      }
+    }
+  }
+  .footer {
+    padding: 2rem 0;
+    &-menu {
+      padding: 0 2.5rem;
+      .font(20px, 29.9px, 0.02em, white);
+    }
+  }
+}
+
+
+
+@media (max-width: 767px) {
+  section {
+    padding-bottom: 5rem;
+    padding-top: 4.5rem;
+  }
+  .header {
+    padding-top: 2.5rem;
+  }
+  .main {
+    &-button {
+      margin-bottom: 6rem;
+    }
+    &-content {
+      margin-top: 5rem;
+      &-text{
+        .font(32px, 30px, 0, @textLight)
+      }
+    }
+  }
+  .team {
+    &-main {
+      margin-top: 2rem;
+      &-text {
+        .blue {
+          margin-bottom: 0.6rem;
+          margin-top: 0.08rem;
+        }
+        .higher {
+          .font(20px, 18px, 0.02em, @textBlack);
+        }
+        .lower {
+          .font(16px, 20px, 0.02em, @textDark);
+        }
+      }
+      &-img {
+        height: 10rem;
+        width: 10rem;
+      }
+    }
+  }
+  .services {
+    &-main {
+      margin-top: 2.5rem;
+      &-text {
+        .higher {
+          .font(20px, 18px, 0.02em, white);
+        }
+        .lower {
+          .font(16px, 20px, 0.02em, white);
+        }
+      }
+    }
+  }
+  .skills {
+    &-main {
+      margin-top: 2rem;
+      .font(20px, 18px, 0.02em, @textDark);
+    }
+  }
+  .portfolio {
+    &-subtitle {
+      margin-bottom: 2rem;
+    }
+    &-main {
+      img {
+        width: 250px;
+      }
+      span {
+        .font(16px, 19.5px, 0.01em, @textBlack);
+        text-align: center;
+        margin-top: 1.2rem;
+      }
+    }
+    &-filter {
+      .filter {
+        width: 4.5rem;
+        .font(16px, 19.5px, 0.02em, @textBlack)
+      }
+    }
+  }
+  .menu {
+    &-block {
+      top: 1.7rem;
+      right: 1.5rem;
+    }
+    &-nav {
+      height: 4rem;
+      line-height: 4rem;
+    }
+    &-btn {
+      width: 4rem;
+      height: 4rem;
+      span, span::before, span::after {
+        width: 1.8rem;
+      }
+    }
+  }
+  .people {
+    &-main {
+      &-text {
+        .font(18px, 24px, 0.02em, white);
+        .name {
+          .font(20px, 26px, 0.02em, white);
+          margin-top: 0.6rem;
+          margin-bottom: 0.1rem;
+        }
+      }
+    }
+    &-subtitle {
+      margin-bottom: 2rem;
+    }
+  }
+  .contact {
+    &-subtitle {
+      margin-bottom: 2rem;
+    }
+    &-form {
+      &-inputs:nth-child(1) {
+        margin-bottom: 0.7rem;
+      }
+      &-textarea {
+        margin-top: 1rem;
+        margin-bottom: 2.5rem;
+      }
+    }
+    &-popup-content {
+      .higher {
+        .font(26px, 18px, 0.06em, @textDark);
+      }
+      .lower {
+        .font(16px, 20px, 0.02em, @textDark);
+      }
+    }
+  }
+  .footer {
+    padding: 1.5rem 0;
+    &-menu {
+      padding: 0;
+      .font(17px, 29.9px, 0, white);
+    }
+  }
+}
+
+
+
+@media (max-width: 575px) {
+  .services-slider, .team-slider {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .header {
+    padding-top: 1.5rem;
+  }
+  .menu-block {
+    display: none;
+  }
+  .menu-slide {
+    display: block;
+  }
+  section {
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
+  }
+  .main {
+    &-content-text {
+      .font(25px, 30px, 0.05em, white);
+    }
+  }
+  .team {
+    &-main {
+      &-img {
+        width: 8rem;
+        height: 8rem;
+      }
+    }
+  }
+  .skills-main {
+    .flex();
+    justify-content: space-between;
+    padding-left: 0.2rem;
+    padding-right: 0.4rem;
+    .ldBar {
+      margin: initial;
+    }
+  }
+  .portfolio {
+    &-subtitle {
+      margin-bottom: 1.5rem;
+    }
+    &-main {
+      margin-top: 2.5rem;
+      img {
+        width: 90%;
+      }
+      span {
+        margin-top: 0.85rem;
+      }
+    }
+    &-button {
+      margin-top: 3rem;
+    }
+  }
+  .people-main {
+    &-img {
+      width: 4rem;
+      height: 4rem;
+    }
+    &-text {
+      margin-left: 1rem;
+      .font(16px, 22px, 0.02em, white);
+      .name {
+        margin-top: 0.3rem;
+        margin-bottom: 0;
+      }
+    }
+    &-margin {
+      margin-bottom: 3.5rem;
+    }
+  }
+  .contact {
+    &-form {
+      &-inputs:nth-child(1) {
+        margin-bottom: 0.5rem;
+      }
+      &-textarea {
+        margin-top: 0.8rem;
+        margin-bottom: 2.5rem;
+      }
+    }
+    &-popup-content {
+      width: 85%;
+      .higher {
+        padding: 1.3rem;
+        .font(25px, 18px, 0.02em, @textDark);
+      }
+      .lower {
+        .font(16px, 18px, 0.02em, @textDark);
+      }
+    }
+  }
+  .footer {
+    display: none;
+  }
+  .icon-footer {
+    display: block;
+    padding: 1rem 0;
+  }
+}
+@media (max-width: 374px) {
+  .br-iphone {
+    display: inline-block;
+  }
+  .skills-main {
+    .font(18px, 20px, 0.02em, @textDark);
+    padding: 0;
+  }
+  .menu-slide {
+    &-btn {
+      width: 3.5rem;
+      height: 3.5rem;
+      top: 1.5rem;
+      left: -4.5rem;
+      span, span::after, span::before {
+        width: 1.5rem;
+      }
+      &-active {
+        left: calc(100% - 4.5rem);
+      }
+    }
+  }
+  .contact {
+    &-form {
+      &-inputs, &-textarea {
+        label {
+          .font(16px, 18px, 0, white);
+        }
+      }
+    }
+    &-popup-content {
+      .higher {
+        .font(22px, 18px, 0.02em, @textDark);
+      }
+      .lower {
+        .font(14px, 18px, 0, @textDark);
+      }
+    }
+  }
+}
